@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Part 2</title>
+
+    <style>
+       body{
+        color: purple;
+       }
+
+
+
+    #astronaut {
+        width:100px;
+    }
+
+</style>
+
+    </div>
+</head>
+<body id="body">
+    <h1>JS PART 2</h1>
+
+    <h2>We can change content with the use of JavaScript</h2>
+    <button type="button" onclick="document.getElementById ('jsDemo').innerHTML= 'Hello this is my second JS example'">Change the HTML Content</button>
+    <p id="jsDemo">We can change the HTML Content with the use of JS</p>
+
+    <hr>
+    <h2>We can change CSS Styles using JavaScript</h2>
+
+    <p id="changeStyle">Js can change the style of an element</p>
+    <button type="button" onclick="document.getElementById('changeStyle').style.fontSize = '50px'">Click me to change the font-size</button>
+
+    <button type="button" onclick="document.getElementById('body').style.backgroundColor = 'blue'">Turn the background color to blue</button>
+
+    <button type="button" onclick="document.getElementById('body').style.color = 'green'">Turn the text color to green</button>
+
+    <button type="button" onclick="document.getElementById('changeStyle').style.color = 'brown'">Turn the text color to brown</button>
+    
+    <hr>
+    <h2>We can hide HTML elements using HTML</h2>
+    <img src="https://img.freepik.com/free-vector/cute-astronaut-peace-moon-with-rocket-cartoon-vector-icon-illustration-science-technology-icon_138676-5030.jpg?w=740&t=st=1690459040~exp=1690459640~hmac=5262c81ca3f74751a01c9b0fb7c2444f154eb46a587b4ee071998e9f67eb885c" alt="Image of an astronaut" id="astronaut">
+
+    <button type="button" onclick="document.getElementById('astronaut').style.display = 'block'">Show</button>
+    <button type="button" onclick="document.getElementById('astronaut').style.display = 'none'">Hide</button>
+
+    <button type="button" onclick="document.getElementById('changeStyle').style.color = 'red'">Turn the text color to red</button>
+
+    <!--ERROR
+    <button type="button" onclick="document.getElementsByClassName('bodyClass').style.color = 'pink'">Turn the text color to pink</button>
+    -->
+
+
+
+</body>
+</html>
